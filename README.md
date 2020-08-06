@@ -6,6 +6,7 @@ To run the system follow the instructions bellow.
 
 # Run backend(PHP)!
   - Store php folder(car) in your suitable php enabled directory(htdocs for xampp, and other suitable place if you are running linux (apaceh, nginx, docker))
+  - Change database credentials in .env file
   - Run `composer update`
   - Make sure that the server is running and executes the requests.
   - A sql file is provided within the project folder.
