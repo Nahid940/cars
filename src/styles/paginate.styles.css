@@ -1,0 +1,32 @@
+
+.page-button {
+    padding: 0px;
+    width: 30px;
+    height: 33px;
+    margin: 2px;
+    background-color: #759fff;
+    font-size: 10px;
+    border: none;
+}
+
+.page-button:hover{
+    cursor: pointer;
+}
+
+.prev-button
+{
+    width: 58px;
+}
+
+.active
+{
+    background-color: #ff0040 !important
+}
+.inactive
+{
+    background-color: #adadad !important
+}
+
+.pages{
+    margin-top: 10px;
+}

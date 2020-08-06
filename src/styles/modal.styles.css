@@ -1,0 +1,50 @@
+
+  
+  .modal-main {
+    position:fixed;
+    background: #95c2e2;
+    width: 50%;
+    height: auto;
+    top:10%;
+    left:25%;
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  .modal-table{
+      margin: 6% 25%;
+  }
+
+  .button-area{
+      float: right;
+      padding-bottom: 2%;
+      padding-right: 2%;
+  }
+  .button-area button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+  .btn-close{
+    background-color: #ce0257!important; /* Green */
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

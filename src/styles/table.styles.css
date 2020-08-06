@@ -1,0 +1,99 @@
+#cars {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #cars td, #cars th {
+    border: 1px solid #ddd;
+    padding: 2px;
+    font-size: 12px;
+  }
+  
+  #cars tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #cars tr:hover {background-color: #ddd;}
+  
+  #cars th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    color: #000;
+  }
+
+  .search-box{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
+
+  .search-box input
+  {
+      padding: 5px;
+      width: 100%;
+      float: left;
+      font-size: 15px;
+  }
+
+  .text-left{
+    text-align: left;
+    padding: 10px;
+    color: #ad001f;
+  }
+
+  .chart-area{
+    padding-left: 3%;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .file-input{
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    cursor: pointer;
+  }
+
+  .upload-button{
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #ee4261;
+    color: #fff;
+  }
+
+  .delete-button{
+    background-color: #ec4e6b;
+    padding: 2px 4px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .edit-button{
+    background-color: #31ac31;
+    padding: 2px 4px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+  }
+
+  .chart-area{
+    width: 300px;
+    height: 250px;
+  }
+
+  .error-text{
+    color:red;
+    text-align: center;
+  }
+  

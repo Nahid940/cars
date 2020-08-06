@@ -1,0 +1,33 @@
+.search-reasult
+{
+    background:#e8e8d5;
+    height: auto;
+    width:51%;
+    position:absolute;
+    margin-top:31px;
+    z-index:1;
+    transition: visibility 0s linear 
+}
+
+ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px!important;
+}
+
+.search-reasult ul li{
+    list-style: none;
+    padding: 4px;
+    background-color: #8dd0ff;
+    text-align: left;
+    border-bottom: .5px solid #f1e8e8;
+    color: #000;
+}
+.search-reasult ul li a{
+    color:#000
+}
+
+.search-reasult ul li:hover{
+    cursor: pointer;
+    background-color: #7bffe761;
+}
