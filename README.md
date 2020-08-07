@@ -6,10 +6,10 @@ To run the system follow the instructions bellow.
   - php files are given in the folder named car.
 
 # Run backend(PHP)!
-  - Store php folder(car) in your suitable php enabled directory(htdocs for xampp, and other suitable place if you are running linux (apaceh, nginx, docker))
-  - Change database credentials in .env file
-  - Run `composer update`
-  - Make sure that the server is running and executes the requests.
+  - Store php folder(car) in your suitable php enabled directory(htdocs for xampp, and other suitable place if you are running linux (apache, nginx, docker))
+  - Change database credentials in car/src/.env file
+  - Run `composer update` not mandatory.
+  - Make sure that the backend server is running and executes the requests.
   - A sql file is provided within the project folder.
   Import that sql file in your mysql database if you need.
   - A CSV file of cars is also provided in the project folder.
