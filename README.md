@@ -1,5 +1,6 @@
 # Instructions
 To run the system follow the instructions bellow.
+  - Clone the project.
   - This system is built with React and php.
   - React is for front end and php for backend.
   - php files are given in the folder named car.

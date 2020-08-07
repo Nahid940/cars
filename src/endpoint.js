@@ -1,2 +1,2 @@
 
-export const endpoint="http://localhost/pie/api/cars.php"
+export const endpoint="http://localhost/car/api/cars.php"
